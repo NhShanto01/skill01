@@ -5,7 +5,7 @@ import { BsStarFill,BsStarHalf } from "react-icons/bs";
 
 const Customers = () => {
   return (
-    <Carousel fade className="cust-div my-4 py-5 text-light">
+    <Carousel fade className="text-center cust-div my-4 py-5 text-light">
       <Carousel.Item className="sm:mx-5">
         <img
           className="rounded-circle shadow-1-strong mb-4 cust-img"

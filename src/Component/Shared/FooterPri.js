@@ -19,7 +19,7 @@ const FooterPri = () => {
                     </div>
                     <div className='d-block align-items-center'>
                         <img src={phone} alt="" />
-                        <span className='mx-3'>+8801547859632</span>
+                        <span className='mx-3 mail-a'>+8801547859632</span>
                     </div>
                 </div>
             </div>

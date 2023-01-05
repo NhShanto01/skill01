@@ -8,3 +8,6 @@ background-color: aliceblue;
     text-decoration: none;
     color: black;
 }
+.mail-a:hover{
+    color: blueviolet;
+}

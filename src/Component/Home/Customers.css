@@ -3,5 +3,6 @@
 
 }
 .cust-div{
-    background-color: blueviolet;
+    background-color: rgb(132, 123, 255);
+    background: linear-gradient(90deg, rgba(132, 123, 255, 1) 50%, rgba(232, 64, 214, 1) 100%);;
 }
