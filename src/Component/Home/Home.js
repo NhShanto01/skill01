@@ -5,6 +5,7 @@ import Customers from './Customers';
 import EMI from './EMI';
 import Exchange from './Exchange';
 import Hero from './Hero';
+import InterirSolution from './InterirSolution';
 import PaysFriend from './PaysFriend';
 import Residential from './Residential';
 import Services from './Services';
@@ -32,6 +33,7 @@ const Home = () => {
             <Tranding></Tranding>
             <p className='mt-5'>Hello</p>
             <Customers></Customers>
+            <InterirSolution></InterirSolution>
         </div>
 
     );
