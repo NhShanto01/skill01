@@ -7,6 +7,7 @@ import Hero from './Hero';
 import PaysFriend from './PaysFriend';
 import Residential from './Residential';
 import Services from './Services';
+import Tranding from './Tranding';
 
 const Home = () => {
     return (
@@ -27,8 +28,10 @@ const Home = () => {
             <PaysFriend></PaysFriend>
             <Exchange></Exchange>
             <hr></hr>
-            
+            <Tranding></Tranding>
+            <p className='mt-5'>Hello</p>
         </div>
+
     );
 };
 
