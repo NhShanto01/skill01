@@ -29,11 +29,11 @@ const Home = () => {
             <p className='text-center my-4 fs-4 fw-bold'>Commertial</p>
             <Commertial></Commertial>
             <EMI></EMI>
-            <PaysFriend></PaysFriend>
+            
             <Exchange></Exchange>
             <hr></hr>
             <Tranding></Tranding>
-            
+            <PaysFriend></PaysFriend>
             <Customers></Customers>
             <hr />
             <h3 className='text-center mt-5'>End-to-End Interior Solution</h3>

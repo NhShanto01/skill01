@@ -7,7 +7,7 @@ import Comer4 from '../Image/P_Commercial/Rectangle 49.png';
 
 const Commertial = () => {
     return (
-        <CardGroup className="mx-5">
+        <CardGroup className="m-5 ">
 
                 <Card>
                     <Card.Img variant="top" className="w-75 d-block mx-auto" src={Comer1} />
