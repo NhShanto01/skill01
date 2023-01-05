@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import logo from'../Image/logo.svg';
+import logo from'../Image/logo/logo.svg';
 
 const Header = () => {
     return (
         <Navbar bg="light" variant="light">
             <Container>
                 <Navbar.Brand href="#home">
-                  <img src={logo} />
+                  <img className='w-25' src={logo} />
                 </Navbar.Brand>
                 <Nav className="mx-end fw-bold">
                     <Nav.Link href="#home">Home</Nav.Link>

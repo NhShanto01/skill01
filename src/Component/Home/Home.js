@@ -2,7 +2,9 @@ import React from 'react';
 import ChooseSkill from './ChooseSkill';
 import Commertial from './Commertial';
 import EMI from './EMI';
+import Exchange from './Exchange';
 import Hero from './Hero';
+import PaysFriend from './PaysFriend';
 import Residential from './Residential';
 import Services from './Services';
 
@@ -22,6 +24,10 @@ const Home = () => {
             <p className='my-4 fs-4 fw-bold'>Commertial</p>
             <Commertial></Commertial>
             <EMI></EMI>
+            <PaysFriend></PaysFriend>
+            <Exchange></Exchange>
+            <hr></hr>
+            
         </div>
     );
 };
