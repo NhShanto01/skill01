@@ -1,0 +1,16 @@
+.div-color {
+    background: rgb(132, 123, 255);
+    background: linear-gradient(90deg, rgba(132, 123, 255, 1) 50%, rgba(232, 64, 214, 1) 100%);
+}
+
+.div-position {
+    margin-top: 100px;
+}
+
+.div-img-position {
+    margin-right: 50px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    width: 250px;
+
+}

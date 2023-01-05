@@ -1,3 +1,8 @@
-.img-size{
-    width: 10%;
+.img-size {
+    width: 100px !important;
+    border: 0px;
+}
+
+.card {
+    border: none !important;
 }
