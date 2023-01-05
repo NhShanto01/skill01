@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Button, Card, Form } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import topImage from '../Image/P_top image/top.png';
 import "./Hero.css";
 

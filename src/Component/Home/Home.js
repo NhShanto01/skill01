@@ -1,4 +1,5 @@
 import React from 'react';
+import FooterPri from '../Shared/FooterPri';
 import ChooseSkill from './ChooseSkill';
 import Commertial from './Commertial';
 import Customers from './Customers';
@@ -36,6 +37,8 @@ const Home = () => {
             <hr />
             <h3 className='text-center mt-5'>End-to-End Interior Solution</h3>
             <InterirSolution></InterirSolution>
+            <FooterPri></FooterPri>
+            <hr />
         </div>
 
     );

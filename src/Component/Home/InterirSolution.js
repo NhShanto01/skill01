@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, CardGroup } from 'react-bootstrap';
 import Residen1 from '../Image/i_End_to_end/Group 51.svg';
 import Residen2 from '../Image/i_End_to_end/layer1.svg';
 import Residen3 from '../Image/i_End_to_end/Group 274.svg';
@@ -11,7 +10,7 @@ import Residen8 from '../Image/i_End_to_end/Layer -3.svg';
 
 const InterirSolution = () => {
     return (
-        <div class="container">
+        <div class="container text-center">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 my-3">
                 <div class="col">
                     <img src={Residen1} alt="" />
