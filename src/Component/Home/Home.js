@@ -33,6 +33,8 @@ const Home = () => {
             <Tranding></Tranding>
             <p className='mt-5'>Hello</p>
             <Customers></Customers>
+            <hr />
+            <h3 className='text-center mt-5'>End-to-End Interior Solution</h3>
             <InterirSolution></InterirSolution>
         </div>
 
