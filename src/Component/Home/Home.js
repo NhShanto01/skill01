@@ -1,6 +1,7 @@
 import React from 'react';
 import ChooseSkill from './ChooseSkill';
 import Commertial from './Commertial';
+import Customers from './Customers';
 import EMI from './EMI';
 import Exchange from './Exchange';
 import Hero from './Hero';
@@ -30,6 +31,7 @@ const Home = () => {
             <hr></hr>
             <Tranding></Tranding>
             <p className='mt-5'>Hello</p>
+            <Customers></Customers>
         </div>
 
     );
