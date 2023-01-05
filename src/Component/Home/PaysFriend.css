@@ -1,3 +1,16 @@
 .pays-color {
-    background-color: #fea1d07d;
+    background-color: #f3ddfb;
 }
+.pays-img{
+    width: 300px;
+    
+}
+.hero-btn {
+    
+    background-color: blueviolet;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+ }
