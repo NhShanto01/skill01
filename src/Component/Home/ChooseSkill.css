@@ -1,8 +1,17 @@
 .img-size {
-    width: 100px !important;
+    width: 120px !important;
     border: 0px;
 }
 
 .card {
     border: none !important;
+}
+.img-H{
+    width: 130px!important;
+}
+.img-D{
+    width: 100px!important;
+}
+.img-Y{
+    width: 150px!important;
 }

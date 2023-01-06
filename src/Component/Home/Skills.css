@@ -1,0 +1,16 @@
+.skill-div-color{
+    background-color: rgb(207, 160, 252);
+}
+.img-design{
+    width: 30px;
+    margin-top: -10px;
+}
+.div-img-design{
+    background-color: white;
+    border: 3px solid blueviolet;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+.skill-text{
+    color: blueviolet;
+}

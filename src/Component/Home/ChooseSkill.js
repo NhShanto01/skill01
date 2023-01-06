@@ -9,60 +9,56 @@ import years from '../Image/i_Why Choose Skill/Group 158.svg';
 const ChooseSkill = () => {
     return (
         <div>
-            <CardGroup className="mx-5">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mx-5 g-4 text-center">
 
-                <Card>
+                <div className="col">
                     <Card.Img variant="top" className="img-size d-block mx-auto" src={days} />
                     <Card.Body>
-                        {/* <Card.Text>
-                            This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit
-                            longer.
-                        </Card.Text> */}
+                        <Card.Text>
+                        45 Dayes or
+We pay your rent
+                        </Card.Text>
                     </Card.Body>
 
-                </Card>
+                </div>
 
-                <Card>
-                    <Card.Img variant="top" className="img-size d-block mx-auto" src={happiness} />
+                <div className="col">
+                    <Card.Img variant="top" className="img-H d-block mx-auto" src={happiness} />
                     <Card.Body>
-                        {/* <Card.Text>
-                            This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit
-                            longer.
-                        </Card.Text> */}
+                        <Card.Text>
+                        150+ Happy
+Customer
+                        </Card.Text>
                     </Card.Body>
 
-                </Card>
+                </div>
 
-                <Card>
-                    <Card.Img variant="top" className="img-size d-block mx-auto" src={design} />
+                <div className="col">
+                    <Card.Img variant="top" className="d-block mx-auto img-D" src={design} />
                     <Card.Body>
-                        {/* <Card.Text>
-                            This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit
-                            longer.
-                        </Card.Text> */}
+                        <Card.Text>
+                        100+ Design
+Experties
+                        </Card.Text>
                     </Card.Body>
 
-                </Card>
+                </div>
 
-                <Card>
-                    <Card.Img variant="top" className="img-size d-block mx-auto" src={years} />
+                <div className="col">
+                    <Card.Img variant="top" className="d-block mx-auto img-Y" src={years} />
                     <Card.Body>
-                        {/* <Card.Text>
-                            This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit
-                            longer.
-                        </Card.Text> */}
+                        <Card.Text>
+                        Upto 10 Years
+Material Warranty
+                        </Card.Text>
                     </Card.Body>
 
-                </Card>
+                </div>
 
 
 
 
-            </CardGroup>
+            </div>
         </div>
     );
 };
