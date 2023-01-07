@@ -7,7 +7,7 @@ const Skills = () => {
     <div className="text-center skill-div-color">
       <div class="container p-5">
         <div class="row">
-          <div class="col ">
+          <div class="col skill-col">
             <div className="d-flex justify-content-center align-items-center w-50 div-img-design">
               <div>
                 <img className="img-design" src={design} alt="" />
@@ -22,7 +22,7 @@ const Skills = () => {
 
           </div>
 
-          <div class="col mt-3">
+          <div class="col mt-3 skill-col sub-text">
             <div className="d-flex align-items-center">
               <div className="mx-3">
                   <span className="fw-bold skill-text">On-Time </span>

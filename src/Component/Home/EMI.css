@@ -13,3 +13,47 @@
     width: 250px;
 
 }
+
+@media only screen and (max-width: 480px) {
+    .div-position {
+        margin-top: 100px;
+        position: relative;
+    }
+    
+    .div-img-position{
+        position: absolute;
+        margin-top: -100px;
+        margin-bottom: 0px;
+        margin-right: 100px;
+        bottom:1px;
+        left: 58% !important;
+        width: 150px;
+    }
+    .text-div{
+        margin-bottom: 100px;
+        margin-right: 10%;
+        font-size: small;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .div-position {
+        margin-top: 100px;
+        position: relative;
+    }
+    
+    .div-img-position{
+        position: absolute;
+        margin-top: -100px;
+        margin-bottom: 0px;
+        margin-right: 100px;
+        bottom: -5px;
+        left: 75%;
+        width: 150px;
+    }
+    .text-div{
+        margin-bottom: 100px;
+        font-size: small;
+    }
+}

@@ -17,9 +17,10 @@ const Hero = () => {
           </div>
           <div className='input-on-image'>
           <div className='hero-bg'>
-          <p className='fs-3'>Talk to a Designer</p>
-          <input></input>
-          <input></input>
+          <p className='fs-4 sm-text'>Talk to a Designer</p>
+          <input className='mb-2' placeholder='Your Name'></input>
+          <input placeholder='Your Email'></input>
+          
           <button className='hero-btn'>BOOK FREE DESIGN SESSION</button>
           </div>
 
