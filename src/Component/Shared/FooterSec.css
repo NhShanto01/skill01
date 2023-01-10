@@ -1,0 +1,8 @@
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.link:hover{
+    color: blueviolet;
+}
