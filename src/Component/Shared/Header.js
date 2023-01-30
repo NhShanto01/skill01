@@ -1,15 +1,16 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import logo from'../Image/logo/logo.svg';
+import './Header.css';
 
 const Header = () => {
     return (
         <Navbar bg="light" variant="light">
-            <Container>
+            <Container className='m'>
                 <Navbar.Brand href="#home">
-                  <img className='w-25' src={logo} />
+                  <img className='header-img' src={logo} />
                 </Navbar.Brand>
-                <Nav className="mx-end fw-bold">
+                <Nav className="header-text mx-end fw-bold">
                     <Nav.Link href="#home">Home</Nav.Link>
                     <Nav.Link href="#service">Service</Nav.Link>
                     <Nav.Link href="#design">Design</Nav.Link>

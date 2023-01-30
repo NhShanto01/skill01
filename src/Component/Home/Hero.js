@@ -12,14 +12,14 @@ const Hero = () => {
           
           <div className='text-on-image'>
 
-          <p className='fs-2 text-light'>Get a Personalized</p>
-          <h2 className='fs-2 text-light'>Interior Designer</h2>
+          <p className='text-light'>Get a Personalized</p>
+          <h2 className='text-light'>Interior Designer</h2>
           </div>
           <div className='input-on-image'>
           <div className='hero-bg'>
-          <p className='fs-4 sm-text'>Talk to a Designer</p>
-          <input className='mb-2' placeholder='Your Name'></input>
-          <input placeholder='Your Email'></input>
+          <p className='sm-text'>Talk to a Designer</p>
+          <input className='mb-2 hero-input' placeholder='Your Name'></input>
+          <input className='hero-input' placeholder='Your Email'></input>
           
           <button className='hero-btn'>BOOK FREE DESIGN SESSION</button>
           </div>

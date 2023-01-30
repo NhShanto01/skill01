@@ -1,0 +1,12 @@
+.header-img{
+    width: 100px;
+}
+
+@media screen and (max-width:480px) {
+    .header-img{
+        width: 50px;
+    }
+    .header-text{
+        font-size: 10px;
+    }
+}

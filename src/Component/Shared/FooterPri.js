@@ -41,9 +41,9 @@ const FooterPri = () => {
             <img src={phone} alt="" />
             <span className="mx-3 mail-a">+8801547859632</span>
         </div>
-          <div className="col">
-            <FiMapPin className="footer-map ms-1 mt-3"/>
-            <span className="mx-3 mail-a">House: 16, Road: 09, Sector: 01, Uttara, Dhaka-1230</span>
+          <div className="col mt-2">
+            <FiMapPin className="footer-map ms-1"/>
+            <span className="mx-3 mail-a ">House: 16, Road: 09, Sector: 01, Uttara, Dhaka-1230</span>
         </div>
       </div>
     </div>

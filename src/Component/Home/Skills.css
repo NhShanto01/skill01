@@ -3,13 +3,14 @@
 }
 .img-design{
     width: 30px;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 .div-img-design{
     background-color: white;
     border: 3px solid blueviolet;
     border-radius: 15px;
     margin-left: 100px;
+    margin-top: 5px;
 }
 .skill-text{
     color: blueviolet;

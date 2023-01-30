@@ -8,12 +8,12 @@ const Skills = () => {
       <div class="container p-5">
         <div class="row">
           <div class="col skill-col">
-            <div className="d-flex justify-content-center align-items-center w-50 div-img-design">
+            <div className="d-flex justify-content-center align-items-center w-50 div-img-design div-box">
               <div>
                 <img className="img-design" src={design} alt="" />
               </div>
 
-              <div className="ms-2">
+              <div className="ms-2 mt-3">
                 <span className="fw-bold skill-text">SKILLS </span>
                 <p>GURANTEE</p>
               </div>
